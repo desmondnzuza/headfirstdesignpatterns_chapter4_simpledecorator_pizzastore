@@ -1,30 +1,32 @@
-﻿namespace PizzaStore.Pizzas
+﻿using System;
+
+namespace PizzaStore.Pizzas
 {
     public class CheesePizza : Pizza
     {
-        public override string Bake()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public override string Box()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public override string Cut()
-        {
-            throw new System.NotImplementedException();
-        }
-
         public override string GetDescription()
         {
-            throw new System.NotImplementedException();
+            return "Traditional Cheeze Pizza";
         }
 
-        public override string Prepare()
+        public override void Bake()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Preparing Traditional Cheeze Pizza");
+        }
+
+        public override void Box()
+        {
+            Console.WriteLine("Boxing Traditional Cheeze Pizza");
+        }
+
+        public override void Cut()
+        {
+            Console.WriteLine("Cutting up Traditional Cheeze Pizza");
+        }
+
+        public override void Prepare()
+        {
+            Console.WriteLine("Preparing Traditional Cheeze Pizza");
         }
     }
 }
