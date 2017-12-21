@@ -16,7 +16,7 @@ namespace PizzaStore.Pizzas
 
         public override void Box()
         {
-            Console.WriteLine("Boxing:\t Traditional Cheeze Pizza");
+            Console.WriteLine("Boxing:\t\t Traditional Cheeze Pizza");
         }
 
         public override void Cut()
