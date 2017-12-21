@@ -11,22 +11,22 @@ namespace PizzaStore.Pizzas
 
         public override void Bake()
         {
-            Console.WriteLine("Preparing Traditional Pepperoni Pizza");
+            Console.WriteLine("Preparing:\t Traditional Pepperoni Pizza");
         }
 
         public override void Box()
         {
-            Console.WriteLine("Boxing Traditional Pepperoni Pizza");
+            Console.WriteLine("Boxing:\t Traditional Pepperoni Pizza");
         }
 
         public override void Cut()
         {
-            Console.WriteLine("Cutting up Traditional Pepperoni Pizza");
+            Console.WriteLine("Cutting Up:\t Traditional Pepperoni Pizza");
         }
 
         public override void Prepare()
         {
-            Console.WriteLine("Preparing Traditional Pepperoni Pizza");
+            Console.WriteLine("Preparing:\t Traditional Pepperoni Pizza");
         }
     }
 }
