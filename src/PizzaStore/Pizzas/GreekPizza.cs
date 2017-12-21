@@ -11,22 +11,22 @@ namespace PizzaStore.Pizzas
 
         public override void Bake()
         {
-            Console.WriteLine("Preparing:\t Traditional Greek Pizza");
+            Console.WriteLine("Preparing\t: Traditional Greek Pizza");
         }
 
         public override void Box()
         {
-            Console.WriteLine("Boxing:\t\t Traditional Greek Pizza");
+            Console.WriteLine("Boxing\t\t: Traditional Greek Pizza");
         }
 
         public override void Cut()
         {
-            Console.WriteLine("Cutting Up:\t Traditional Greek Pizza");
+            Console.WriteLine("Cutting Up\t: Traditional Greek Pizza");
         }
 
         public override void Prepare()
         {
-            Console.WriteLine("Preparing:\t Traditional Greek Pizza");
+            Console.WriteLine("Preparing\t: Traditional Greek Pizza");
         }
     }
 }
